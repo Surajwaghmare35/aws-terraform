@@ -10,12 +10,12 @@ terraform {
 
 ## Configure the AWS Provider
 provider "aws" {
-  region = "ap-south-1" //(hardCoded-recommended)
-  #  shared_config_files      = ["/home/suraj/.aws/config"]
-  #  shared_credentials_files = ["/home/suraj/.aws/credentials"]
-  #  profile                  = "default"
-  access_key = "xxxxxxxxxx"	//replace xx with AK-valuse	//20-char(string)
-  secret_key = "xxxxxxxxxxxxxxxxxxxx" ///replace xx with SK-valuse	//40-char(string)
+  region                   = "ap-south-1" //(hardCoded-recommended)
+  shared_config_files      = ["/home/suraj/.aws/config"]
+  shared_credentials_files = ["/home/suraj/.aws/credentials"]
+  profile                  = "default"
+  #access_key = "xxxxxxxxxx"	//replace xx with AK-valuse	//20-char(string)
+  #secret_key = "xxxxxxxxxxxxxxxxxxxx" ///replace xx with SK-valuse	//40-char(string)
 }
 
 
